@@ -1,0 +1,137 @@
+@media screen and (max-width: 850px){
+    header{
+        position: relative;
+    }
+    header .content{
+        max-width: none;
+        width: 80%;
+        margin:0;
+        float: none;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+    }
+    .section1 .text-section1{
+        position: static;
+    }
+    .section1 .text-section1 h2{
+        font-size: 29px;
+    }
+}
+@media screen and (max-width: 770px){
+
+    header .content h2{
+        font-size: 35px;
+        color: white;
+        padding-left: 0;
+    }
+    header .content p{
+        font-size: 15px;
+    }
+    header nav.desktop-menu{
+        display: none;
+    }
+    header nav.mobile-menu{
+        display: initial;
+    }
+
+    .section1{
+        position: relative;
+    }
+    .section1 .text-section1{
+            text-align: center;
+            width: 100%;
+            float:none;
+            margin-top: 0;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+    }
+    .section1 .text-section1 ul li{
+        text-align: left;
+    }
+    .section1 .text-section1 .btn-section1{
+        margin: 20px auto;
+        width: 250px;
+    }
+
+    .section1 .device{
+        display: none;
+    }
+    
+    
+    .section2 p{
+        width: 90%;
+        margin: 30px auto;
+        font-size: 17px;
+    }
+    .section2 img{
+        width: 100%;
+        position: relative;
+        top:40px;
+        z-index: 2;
+    }
+    
+    .section3 .part1, .section3 .part2{
+        z-index: 1;
+        float:none;
+        width: 100%;
+        padding: 0;
+        min-height: 350px;
+        position: relative;
+        text-align: center;
+    }
+    .section3 .part1 .text-part1{
+        float: none;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .section3 .part2 .container-autor{
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .section3 .part2 .content-autor{
+        display: inline-block;
+    }
+    .section3 .part2 .text-autor p{
+        width: 80%;
+        display: inline-block;
+    }
+
+    .section4 .formulario, .section4 .visit{
+        width:100%;
+        float: none;
+        padding: 40px 0 ;
+    }
+    .section4 .formulario p{
+        width: 100%;
+    }
+    .section4 .formulario input[type="text"], .section4 .formulario input[type="email"]{
+        width: 100%
+    }
+    .section4 .formulario textarea{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+    footer p{
+        font-weight: 300;
+        font-size: 20px;
+    }
+    footer .text-footer, footer .footer-email{
+        float:none;
+    }
+    
+}
+
